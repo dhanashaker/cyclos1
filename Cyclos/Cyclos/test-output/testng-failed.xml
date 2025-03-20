@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="cyclos_Extent_Report.Cyclos_Report"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="url" value="https://demo.cyclos.org/ui/home"/>
+    <classes>
+      <class name="cyclos_BaseTCases.TC_01_Registeration">
+        <methods>
+          <include name="openapplication"/>
+          <include name="Registeration_Cyclos"/>
+        </methods>
+      </class> <!-- cyclos_BaseTCases.TC_01_Registeration -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

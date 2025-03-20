@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-20T15:41:11 IST" name="Suite" finished-at="2025-03-20T15:41:27 IST" duration-ms="16597">
+    <groups>
+    </groups>
+    <test started-at="2025-03-20T15:41:11 IST" name="Test" finished-at="2025-03-20T15:41:27 IST" duration-ms="16597">
+      <class name="cyclos_BaseTCases.TC_01_Registeration">
+        <test-method is-config="true" signature="openapplication(java.lang.String,java.lang.String)[pri:0, instance:cyclos_BaseTCases.TC_01_Registeration@4d1c005e]" started-at="2025-03-20T15:41:11 IST" name="openapplication" finished-at="2025-03-20T15:41:14 IST" duration-ms="3117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.cyclos.org/ui/home]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapplication -->
+        <test-method signature="Registeration_Cyclos()[pri:0, instance:cyclos_BaseTCases.TC_01_Registeration@4d1c005e]" started-at="2025-03-20T15:41:14 IST" name="Registeration_Cyclos" finished-at="2025-03-20T15:41:27 IST" duration-ms="13288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registeration_Cyclos -->
+      </class> <!-- cyclos_BaseTCases.TC_01_Registeration -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
